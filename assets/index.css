@@ -1,0 +1,40 @@
+@font-face {
+    font-family: AnandaBlack;
+    src: url(./fonts/AnandaBlack.ttf);
+}
+
+@font-face {
+    font-family: MontSerrat;
+    src: url(./fonts/Montserrat.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #77B3F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+h1{
+    font-family: AnandaBlack;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    font-family: MontSerrat;
+}
+
+li{
+    padding: 10px;
+}
