@@ -1,0 +1,240 @@
+@font-face {
+    font-family: AnandaBlack;
+    src: url(./assets/fonts/AnandaBlack.ttf);
+}
+
+@font-face {
+    font-family: MontSerrat;
+    src: url(./assets/fonts/Montserrat.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #77B3F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+#titre_principal{
+    font-family: AnandaBlack;
+}
+
+h1{
+    font-family: AnandaBlack;
+    font-size: 15px;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+h1:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 10px;
+    font-family: MontSerrat;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+}
+
+.survol-header:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#image-section1 {
+    background-image: url(./assets/images/bowling_field.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    display: flex;
+}
+
+#div_container{
+    background-color: black;
+    font-family: MontSerrat ;
+    border: 2px white solid;
+    border-radius: 1px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    opacity: 0.80;
+    padding: 10px
+   
+}
+
+#nos_offres{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Montserrat;
+}
+
+h3{
+    margin-bottom: 15px;
+}
+
+#p_nos_offres_contact{
+    font-size: 12px;
+    text-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#les_jeux{
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    color: white;
+}
+
+img{
+    width: 50px;
+    display: flex;
+}
+
+#div_jeux1{
+    background-color: #77B3F7;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    width: 212px;
+    height: 135px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(125, 125, 125);
+}
+
+#div_jeux2{
+    background-color: #FF9595;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    width: 212px;
+    height: 135px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(96, 95, 95);
+}
+
+#div_jeux3{
+    background-color: #FFE572;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    width: 212px;
+    height: 135px;
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(109, 109, 109);
+     
+}
+
+.nom_sport{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.prix_nbmax{
+    font-weight: bold;
+    font-size: 10px;
+}
+
+#nous_contacter{
+    font-family: MontSerrat;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#input_contact{
+    display: flex;
+    
+}
+
+#input_submit{
+   background-color: #77B3F7;
+   color: white;
+   border: none;
+   font-size: 10px;
+   border-radius: 3px;
+   padding: 5px 10px; 
+   margin-top: 15px;
+   font-family: Montserrat;
+}
+
+#input_position{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+textarea{
+    width: 50%;
+    border: 1px rgb(182, 182, 182) solid;
+    border-radius: 2px;
+}
+
+#input_submit:hover{
+    background-color: rgb(156, 212, 240);
+}
+
+#div_submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulaire_input{
+    max-width: 1500px;
+    margin: auto;
+   
+}
+
+.input_only{
+    margin: 2px 10px;
+    padding: 5px;
+    border: 1px rgb(174, 174, 174) solid;
+    border-radius: 2px;
+
+}
+
+.image_jeux{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #77B3F7;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+#copyright{
+    font-weight: bold;
+}
