@@ -1,11 +1,11 @@
 @font-face {
     font-family: AnandaBlack;
-    src: url(./fonts/AnandaBlack.ttf);
+    src: url(./assets/fonts/AnandaBlack.ttf);
 }
 
 @font-face {
     font-family: MontSerrat;
-    src: url(./fonts/Montserrat.ttf);
+    src: url(./assets/fonts/Montserrat.ttf);
 }
 
 *{
@@ -60,8 +60,7 @@ a{
 }
 
 #image-section1 {
-    background-image: url(./images/bowling_field.jpg);
-    
+    background-image: url(./assets/images/bowling_field.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size:cover;
