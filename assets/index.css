@@ -61,10 +61,10 @@ a{
 
 #image-section1 {
     background-image: url(./images/bowling_field.jpg);
-    width: 1512px;
+    
     height: 400px;
-    background-position: center;
-    background-size: 1510px;
+    background-repeat: no-repeat;
+    background-size:cover;
     align-items: center;
     display: flex;
 }
@@ -170,9 +170,8 @@ p{
 }
 
 #input_contact{
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    
 }
 
 #input_submit{
@@ -189,6 +188,13 @@ justify-content: center;
 #input_position{
     display: flex;
     flex-direction: column;
+    width: 50%;
+}
+
+textarea{
+    width: 50%;
+    border: 1px rgb(182, 182, 182) solid;
+    border-radius: 2px;
 }
 
 #input_submit:hover{
@@ -198,5 +204,24 @@ justify-content: center;
 #div_submit{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+#formulaire_input{
+    max-width: 1500px;
+    margin: auto;
+   
+}
+
+.input_only{
+    margin: 2px 10px;
+    padding: 5px;
+    border: 1px rgb(174, 174, 174) solid;
+    border-radius: 2px;
+
+}
+
+.image_jeux{
+    display: flex;
     justify-content: center;
 }
