@@ -21,6 +21,10 @@ header{
     color: white;
 }
 
+#titre_principal{
+    font-family: AnandaBlack;
+}
+
 h1{
     font-family: AnandaBlack;
     font-size: 15px;
@@ -165,6 +169,11 @@ p{
     margin-top: 15px;
 }
 
+#input_contact{
+display: flex;
+align-items: center;
+justify-content: center;
+}
 
 #input_submit{
    background-color: #77B3F7;
@@ -175,6 +184,15 @@ p{
    padding: 5px 10px; 
    margin-top: 15px;
    font-family: Montserrat;
+}
+
+#input_position{
+    display: flex;
+    flex-direction: column;
+}
+
+#input_submit:hover{
+    background-color: rgb(156, 212, 240);
 }
 
 #div_submit{

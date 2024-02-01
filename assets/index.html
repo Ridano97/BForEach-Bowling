@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>BForEach</h1>
+        <h1><a id="titre_principal" href="http://127.0.0.1:5500/assets/index.html" target="_self">BForEach</a></h1>
         <ul>
-            <li class="survol-header"><a href=""> Accueil</a></li>
-            <li class="survol-header"><a href="">Nos Offres</a></li>
-            <li class="survol-header"><a href="">Nous contacter</a></li>
+            <li class="survol-header"><a href="http://127.0.0.1:5500/assets/index.html"> Accueil</a></li>
+            <li class="survol-header"><a href="#nosoffres" target="_self">Nos Offres</a></li>
+            <li class="survol-header"><a href="#nouscontacter" target="_self">Nous contacter</a></li>
         </ul>
     </header>
     <main>
@@ -26,7 +26,7 @@
         </section>
         <section>
             <div id="nos_offres">
-                <h3>Nos offres</h3>
+                <h3 id="nosoffres">Nos offres</h3>
                 <p id="p_nos_offres_contact">Amateur ou compétiteur ? Si vous avez une revanche à prendre sur un ami ou que vous soihaitez perfectionnez vos compétences grâce à notre formule illimité ! Venez vous amusez sur nos 10 pistes de bowling/billard/baseball.</p>
             </div>
             <div id="les_jeux">
@@ -56,14 +56,24 @@
         <section>
             <form>
                 <div id="nous_contacter">
-                    <h3> Nous contacter</h3>
+                    <h3 id="nouscontacter"> Nous contacter</h3>
                     <p id="p_nos_offres_contact"> Contactez-nous pour toute question ou information. Nous sommes là pour vous aider</p>
                 </div>
                 <div id="input_contact">
-                    <input  required type="text" placeholder="Prénom *">
-                    <input required type="email" name="" id="" placeholder="Email *">
-                    <input type="text" placeholder="Numéro de téléphone">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+                    <div id="input_position">
+                        <label for="name">
+                            <input  required name="name" type="text" placeholder="Prénom *">
+                        </label>
+                        <label for="email">
+                            <input required name="email" type="email" name="" id="" placeholder="Email *">
+                        </label>
+                        <label for="phone">                    
+                            <input type="phone" name="phone"  placeholder="Numéro de téléphone">
+                        </label>
+                    </div>
+                    <label for="message">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Votre message"></textarea>
+                    </label>
                 </div>
                 <div id="div_submit">
                     <input id="input_submit" type="submit" value="Envoyer">
